@@ -4,7 +4,11 @@ const Navbar = () => {
         <h1>The Dojo Blog</h1>
         <div className="links">
             <a href="/">Home</a>
-            <h1>App component</h1>
+            <a href="/create" style={{
+                color: "white",
+                backgroundColor: "#f1356d",
+                borderRadius: "8px"
+            }}>New Blog</a>
         </div>
 
     </div>  
