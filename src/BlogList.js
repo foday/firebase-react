@@ -2,6 +2,7 @@
 const BlogList = (props) => {
     const blogs = props.blogs;
     const title = props.title;
+    const handleDelete = props.handleDelete;
 
     return (
         <div className="home">
@@ -11,6 +12,7 @@ const BlogList = (props) => {
                 
                 <h2>{blog.title}</h2>
                 <p>written by {blog.author}</p>
+                <button onClick={() => handleDelete(blog.id)}>Delete Blog</button>
             </div>
 ))}
        

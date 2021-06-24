@@ -8,10 +8,15 @@ const Home = () => {
         {title: 'Java', body: 'Java is a language for system building', author: 'Luigi', id: 3}
     ]);
 
+    const handleDelete = (id) => {
+        const newBlogs = blogs.filter(blog => blog.id !== id);
+        setBlogs(newBlogs);
+    }
+
     return (
         <div className="home">
-            <BlogList blogs={blogs} title="All blogs!" />
-            <BlogList blogs={blogs.filter((blog) => blog.author === 'sim')} title="Sim's list"/>
+            <BlogList blogs={blogs} title="All blogs!" handleDelete={handleDelete}/>
+            <BlogList blogs={blogs.filter((blog) => blog.author === 'sim')} title="Sim's list" handleDelete={handleDelete}/ >
         </div>
       );
 }
