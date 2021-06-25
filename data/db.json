@@ -1,0 +1,34 @@
+{
+    "blogs": [
+      {
+        "title": "My First React Blog",
+        "body": "Creating a react blog and the coding steps that need to be taken.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porttitor Curabitur viverra mi at efficitur blandit. Vestibulum tempus ornare orci et scelerisque. Integer nunc diam, ultrices quis consequat id, tempus a dui. Fusce fringilla mi non elementum pretium. Phasellus quis dolor ut sem finibus feugiat. Mauris eu ex vitae odio suscipit condimentum. Aliquam auctor eros massa, at bibendum enim dapibus a. Donec id elit sapien. Praesent efficitur semper odio, ac ultricies erat ornare ac. Mauris sit amet elementum lacus.",
+        "author": "mario",
+        "id": 1
+      },
+      {
+        "title": "The Express App",
+        "body": "The similarities between React and Express app....Morbi ut massa eleifend, laoreet dolor in, tempus risus. Etiam a nisl eu est pellentesque lacinia quis ac nunc. Sed ac erat aliquam, volutpat quam nec, egestas dui. Mauris molestie risus ac laoreet ultricies. Nullam porta quam risus, sed pellentesque leo venenatis nec. Praesent dignissim non nisl non lacinia. Nullam tellus odio, pellentesque quis euismod eget, tincidunt vel lorem. Suspendisse tincidunt vel sem auctor molestie. Integer vel felis laoreet, fringilla felis eu, tristique leo. Vivamus rhoncus urna tincidunt iaculis pharetra. Donec orci nisi, viverra in eros eget, imperdiet scelerisque odio. Suspendisse egestas pretium aliquam. Suspendisse neque tortor, tempor ac dolor id, suscipit malesuada ligula. Nunc in varius felis.",
+        "author": "luigi",
+        "id": 2
+      },
+      {
+        "title": "Java Programming ",
+        "body": "OOP is object oriented programming ",
+        "author": "mario ",
+        "id": 3
+      },
+      {
+        "title": "Python dev",
+        "body": "Using python framework called Django. The ease of using this framework has gotten a lot of students and Universities to adopt the python framework ",
+        "author": "mario ",
+        "id": 4
+      },
+      {
+        "title": "A sampling ",
+        "body": "A sampling of someone's else code might help ",
+        "author": "Luigi",
+        "id": 5
+      }
+    ]
+  }
